@@ -10,7 +10,7 @@ import Home from './components/Home'
 
 
 function App() {
-  
+  const [count, setCount] = useState(0)
 
   return (
     <div className='bg-gradient-to-b from-black to-gray-900 h-screen'>
